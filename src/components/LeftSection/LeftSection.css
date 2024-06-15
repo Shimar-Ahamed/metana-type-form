@@ -1,0 +1,51 @@
+/* LeftSection.css */
+
+.left-section {
+  width: 100%; /* Take full width by default */
+  padding: 1.25rem;
+  margin-top: 5rem;
+  order: 2; /* Default order: display below in flex container */
+}
+  .section-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .section-description {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  
+  .start-button {
+    background-color: #805AD5;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    outline: none;
+  }
+  
+  .start-button:hover {
+    background-color: #6B46C1;
+  }
+  
+  .info-text {
+    font-size: 0.875rem;
+    color: #6B7280;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+
+  @media (min-width: 768px) {
+    .left-section {
+      width: 50%; /* Take 50% width on larger screens */
+      order: 1; /* Order: display first in flex container */
+    }
+  }

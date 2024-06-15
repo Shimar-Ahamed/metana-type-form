@@ -1,0 +1,125 @@
+.question-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.question-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.question-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.question-number{
+  color: #007bff;
+}
+
+.arrow {
+  color: #007bff;
+  margin-left: 5px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  color: #007bff
+}
+
+.ok-button, .submit-button, .typeform-button {
+  padding: 10px 20px;
+  background-color: #e0b7ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.ok-button .loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid #007bff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate
+  }
+}
+
+
+
+.ok-button:hover, .submit-button:hover, .typeform-button:hover {
+  background-color: #d0a7ee;
+}
+
+.checkbox-options, .radio-options {
+  text-align: left;
+}
+
+.average-salary {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.salary-choices label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+
+.social-media-logos a {
+  margin: 0 10px;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.social-media-logos a:hover {
+  color: #0056b3;
+}
+
+.social-media-logos {
+  margin: 20px 0;
+}
+
+.required {
+  color: red;
+}

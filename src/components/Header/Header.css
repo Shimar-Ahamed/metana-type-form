@@ -1,0 +1,39 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    background-color: #fff;
+    
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #805AD5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner-circle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #F59E0B;
+  }
+  
+  .logo-text {
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  

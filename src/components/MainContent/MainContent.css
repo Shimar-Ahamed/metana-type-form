@@ -1,0 +1,17 @@
+.main-content {
+    display: flex;
+    flex-direction: column; /* Stack content vertically by default */
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack content vertically by default */
+  }
+  
+  @media (min-width: 768px) {
+    .content-wrapper {
+      flex-direction: row; /* Display content side by side on larger screens */
+      justify-content: space-between; /* Ensure sections are spaced apart */
+    }
+  }
+  
